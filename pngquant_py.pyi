@@ -1,3 +1,5 @@
+__all__ = ["quantize"]
+
 def quantize(
     input_data: bytes, quality_min: int = 0, quality_max: int = 100, speed: int = 3
 ) -> bytes:
